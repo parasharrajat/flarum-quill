@@ -2,12 +2,14 @@
   "name": "parasharrajat/flarum-quill",
   "description": "Quilljs integration for Flarum",
   "keywords": [
-    "flarum"
+    "flarum",
+    "editor",
+    "quill"
   ],
   "type": "flarum-extension",
   "license": "Apache-2.0",
   "require": {
-    "flarum/core": "^0.1.0-beta.8",
+    "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15",
     "nadar/quill-delta-parser": "^2.5"
   },
   "authors": [],
@@ -20,9 +22,9 @@
     "flarum-extension": {
       "title": "Flarum Quill",
       "icon": {
-        "name": "",
-        "backgroundColor": "",
-        "color": ""
+        "name": "fas fa-pen-nib",
+        "backgroundColor": "#1d1e30",
+        "color": "#fff"
       }
     },
     "flagrow": {

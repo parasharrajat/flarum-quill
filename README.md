@@ -21,3 +21,9 @@ composer update parasharrajat/flarum-quill
 ### Links
 
 - [Packagist](https://packagist.org/packages/parasharrajat/flarum-quill)
+
+### Features
+
+- [x] Working Quill Editor.
+- [x] Support for Mentions(Needs Flarum Mention Extension Installed).
+- [x] Support for Emoji(Needs Flarum Emoji Extension Installed).
