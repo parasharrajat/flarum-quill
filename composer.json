@@ -1,0 +1,32 @@
+{
+  "name": "parasharrajat/flarum-quill",
+  "description": "Quilljs integration for Flarum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "Apache-2.0",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8",
+    "nadar/quill-delta-parser": "^2.5"
+  },
+  "authors": [],
+  "autoload": {
+    "psr-4": {
+      "Parasharrajat\\Quill\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Flarum Quill",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
