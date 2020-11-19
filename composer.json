@@ -1,6 +1,7 @@
 {
   "name": "parasharrajat/flarum-quill",
   "description": "Quilljs integration for Flarum",
+  "version": "0.1.0",
   "keywords": [
     "flarum",
     "editor",
