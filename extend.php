@@ -44,15 +44,21 @@ return [
             'h3',
             'ul',
             'ol',
-            'li'
+            'li',
+            'img',
         );
 
         foreach ($htmlElements as $el) {
             $configurator->HTMLElements->allowElement($el);
         }
 
+        $configurator->HTMLElements->allowUnsafeElement('iframe');
         $configurator->HTMLElements->allowAttribute('a', 'href');
         $configurator->HTMLElements->allowAttribute('a', 'title');
+        $configurator->HTMLElements->allowAttribute('img', 'src');
+        $configurator->HTMLElements->allowAttribute('iframe', 'src');
+        $configurator->HTMLElements->allowAttribute('iframe', 'width');
+        $configurator->HTMLElements->allowAttribute('iframe', 'height');
         $configurator->HTMLElements->finalize();
         $config->enableJavaScript();
         // $config->javascript->setMinifier('ClosureCompilerService');
