@@ -26,4 +26,4 @@ composer update parasharrajat/flarum-quill
 
 - [x] Working Quill Editor.
 - [x] Support for Mentions(Needs Flarum Mention Extension Installed).
-- [x] Support for Emoji(Needs Flarum Emoji Extension Installed).
+- [ ] Support for Emoji(Needs Flarum Emoji Extension Installed).
